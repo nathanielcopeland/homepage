@@ -1,0 +1,32 @@
+body{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #0575E6, #021B79);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, rgb(5, 104, 204), #021B79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+overflow: hidden;
+}
+
+overflowbox{
+    color: red;
+    overflow: hidden;
+    height: 10px;
+    width: 10px;
+    background: white;
+    animation-delay: 4s;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+
+svg {
+  width: 2000px;
+  height: 800px;
+}
+
+path {
+  stroke: red;
+  stroke-width: 40px;
+  stroke-linecap: round;
+  fill: none;
+}
